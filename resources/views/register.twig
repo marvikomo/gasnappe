@@ -1,0 +1,223 @@
+{% extends 'layouts/base.twig' %}
+{% block title %}Register{% endblock %}
+{%  block header %}
+    {%  include 'includes/header.twig' %}
+{%  endblock %}
+{% block search %}
+
+    <div class="page-header" style="background: url({{ asset('img/banner1.jpg')  }});">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb-wrapper">
+                        <h2 class="page-title">Join Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+
+    <section id="content">
+        <div class="container">
+            <form method="post" action="{{ path_for('register.profile') }}" enctype="multipart/form-data">
+                {{ csrf.field |raw }}
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="row page-content">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="inner-box">
+                                <div class="tg-contactdetail">
+                                    <h2 class="title-2">Contact Detail</h2>
+                                    <div class="dashboard-wrapper">
+
+                                        <div class="form-group mb-3">
+                                            <strong>I’m a:</strong>
+                                            <div class="tg-selectgroup">
+                                        <span class="tg-radio">
+                                        <input id="lawyer" type="radio" name="usertype" value="1" checked >
+                                        <label for="tg-sameuser">Lawyer</label>
+                                        </span>
+                                                                                        <span class="tg-radio">
+                                        <input id="firm" type="radio" name="usertype" value="2">
+                                        <label for="tg-someoneelse">Law Firm</label>
+                                        </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3" id="name">
+                                            <label class="control-label">Name*</label>
+                                            <input class="form-control input-md" name="name" type="text">
+                                        </div>
+                                        <div class="form-group mb-3" id="bname">
+                                            <label class="control-label">Business Name*</label>
+                                            <input class="form-control input-md" name="bname" type="text">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">Phone*</label>
+                                            <input class="form-control input-md" name="contact_phone" type="text">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">Enter Email Address</label>
+                                            <input class="form-control input-md" name="email" type="text">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">Password*</label>
+                                            <input class="form-control input-md" name="password" type="password">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">Confirm Password*</label>
+                                            <input class="form-control input-md" name="confirm_password" type="password">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">Enter Address</label>
+                                            <input class="form-control input-md" name="address" type="text">
+                                        </div>
+                                        <div class="form-group mb-3 tg-inputwithicon">
+                                            <label class="control-label">Country</label>
+                                            <div class="tg-select form-control">
+                                                <select name = "country">
+                                                    <option value="none">Select Country...</option>
+                                                    <option value="Nigeria">Nigeria</option>
+
+                                                </select>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3 tg-inputwithicon">
+                                            <label class="control-label">State</label>
+                                            <div class="tg-select form-control">
+                                                <select name="state">
+                                                    <option value="none">Select State...</option>
+                                                    <option value="Edo State">Edo State</option>
+
+                                                </select>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3 tg-inputwithicon">
+                                            <label class="control-label">City</label>
+                                            <div class="tg-select form-control">
+                                                <select name="city">
+                                                    <option value="none">Select City...</option>
+                                                    <option value="Benin City">Benin City</option>
+
+                                                </select>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">Land Mark</label>
+                                            <input class="form-control input-md" name="land_mark" type="text">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="control-label">LGA</label>
+                                            <input class="form-control input-md" name="lga" type="text">
+                                        </div>
+
+                                        <div class="tg-checkbox mb-2">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="tg-agreetermsandrules">
+                                                <label class="custom-control-label" for="tg-agreetermsandrules">I agree to all <a href="javascript:void(0);">Terms of Use &amp; Posting Rules</a></label>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-common" type="submit">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="inner-box">
+                                <h2 class="title-2">Track Record</h2>
+                                <div class="dashboard-wrapper">
+                                    <div class="form-group mb-3 not_common">
+                                        <label class="control-label">Title</label>
+                                        <input class="form-control input-md" name="title" placeholder="Title" type="text">
+                                    </div>
+                                    <div class="form-group mb-3 not_common" >
+                                        <label class="control-label">Year of Call</label>
+                                        <input class="form-control input-md" name="yoc" placeholder="Year of Call" type="text">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="control-label">Enrollment Numberr</label>
+                                        <input class="form-control input-md" name="enrollment_number" placeholder="Enrollment Number" type="text">
+                                    </div>
+                                    <div class="form-group mb-3 tg-inputwithicon">
+                                        <label class="control-label">Area of specialty</label>
+                                        <div class="tg-select form-control">
+                                            <select name="aos">
+                                                <option value="none">Choose Specialty</option>
+                                                <option value="Financial Law">Financial Law</option>
+                                                <option value="Crime Law">Crime Law</option>
+                                                <option value="Coroperate Law">Coroperate Law</option>
+
+                                            </select>
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="control-label">Brief profile</label>
+                                        <textarea name="bf"  class="form-control input-md"></textarea>
+                                    </div>
+
+                                        <label class="tg-fileuploadlabel" for="tg-photogallery">
+                                            <span>Drop files anywhere to upload<br>Logo or Profile Picture</br></span>
+
+
+                                            <input id="" class="" type="file" name="image">
+                                        </label>
+
+
+
+
+
+
+                                    <label class="tg-fileuploadlabel" for="tg-photogallery" id="for_firm">
+                                        <span>Upload Neccessary Certificate</span>
+
+
+                                        <input id="" class="tg-fileinput" type="file" name="doc">
+                                        <input id="type" class="tg-fileinput" type="hidden" name="type" value="">
+                                    </label>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+{%  endblock %}
+
+{% block script %}
+    {{ parent() }}
+    <script>
+        $(document).ready(function () {
+            $('#bname').hide();
+            $('#name').show();
+            $('#type').val(1);
+         $(document).on('click', '#lawyer',function(){
+             $('#bname').hide();
+             $('.not_common').show();
+
+           $('#type').val(1);
+
+         });
+            $(document).on('click', '#firm',function(){
+
+                $('#bname').show();
+                $('#name').hide();
+                $('.not_common').hide();
+                $('#type').val(2);
+
+            });
+
+        })
+    </script>
+{%  endblock %}

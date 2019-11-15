@@ -1,0 +1,31 @@
+{
+    "require": {
+        "slim/slim": "^3.12",
+        "monolog/monolog": "^2.0",
+        "akrabat/ip-address-middleware": "^1.0",
+        "ext-pdo": "*",
+        "pachico/slim-swoole": "^0.3.0",
+        "aws/aws-sdk-php": "^3.108",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "africastalking/africastalking": "^2.2",
+        "slim/twig-view": "^2.5",
+        "slim/flash": "^0.4.0",
+        "respect/validation": "^1.1",
+        "slim/csrf": "^0.8.3",
+        "illuminate/database": "^5.8",
+        "nesbot/carbon": "^2.24",
+        "illuminate/pagination": "^5.8",
+        "lcobucci/jwt": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    },
+    "require-dev": {
+        "swoole/ide-helper": "@dev",
+        "symfony/var-dumper": "^4.3"
+    }
+}
