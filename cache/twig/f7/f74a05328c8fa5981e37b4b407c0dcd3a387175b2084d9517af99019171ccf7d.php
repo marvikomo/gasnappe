@@ -101,7 +101,7 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
         // line 38
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("register"), "html", null, true);
         echo "\" title=\"Register\"><i class=\"flaticon-checked\"></i> register</a></li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -123,9 +123,7 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
         // line 57
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("home"), "html", null, true);
         echo "\" title=\"\">Home</a>
-                                    <ul>
-                                        <li><a href=\"index-after-login.html\" title=\"\">page after login</a></li>
-                                    </ul>
+                                    
                                 </li>
                                 <li><a href=\"#\" title=\"\">cars</a>
                                     <ul>
@@ -250,11 +248,11 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
                 <li class=\"menu-item-has-children\"><a href=\"#\" title=\"\">more pages</a>
                     <ul class=\"sub-menu\">
                         <li><a href=\"";
-        // line 184
+        // line 182
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("login"), "html", null, true);
         echo "\" title=\"\">Login page</a></li>
                         <li><a href=\"";
-        // line 185
+        // line 183
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("register"), "html", null, true);
         echo "\" title=\"\">Register Page</a></li>
                         <li><a href=\"how-this-work.html\" title=\"\">how it's work</a></li>
@@ -269,15 +267,15 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
     </div><!-- Responsive Header -->
 
     ";
-        // line 197
-        $this->loadTemplate("includes/flash.twig", "layouts/base.twig", 197)->display($context);
-        // line 198
+        // line 195
+        $this->loadTemplate("includes/flash.twig", "layouts/base.twig", 195)->display($context);
+        // line 196
         echo "    ";
         $this->displayBlock('caurosel', $context, $blocks);
-        // line 200
+        // line 198
         echo "    ";
         $this->displayBlock('content', $context, $blocks);
-        // line 203
+        // line 201
         echo "
 
 
@@ -394,63 +392,63 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
 
 </div>
 <script src=\"";
-        // line 318
+        // line 316
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/apps.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 319
+        // line 317
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/script.js"]), "html", null, true);
         echo "\"></script>
 
 <!-- REVOLUTION JS FILES -->
 <script type=\"text/javascript\" src=\"";
-        // line 322
+        // line 320
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/jquery.themepunch.tools.min.js"]), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 323
+        // line 321
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/jquery.themepunch.revolution.min.js"]), "html", null, true);
         echo "\"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  -->
 <script src=\"";
-        // line 326
+        // line 324
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.actions.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 327
+        // line 325
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.carousel.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 328
+        // line 326
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.kenburn.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 329
+        // line 327
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.layeranimation.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 330
+        // line 328
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.migration.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 331
+        // line 329
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.navigation.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 332
+        // line 330
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.parallax.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 333
+        // line 331
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.slideanims.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 334
+        // line 332
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.video.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 335
+        // line 333
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.initialize.js"]), "html", null, true);
         echo "\"></script>
 
@@ -460,19 +458,19 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
 </html>\t\t";
     }
 
-    // line 198
+    // line 196
     public function block_caurosel($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 199
+        // line 197
         echo "    ";
     }
 
-    // line 200
+    // line 198
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 201
+        // line 199
         echo "
     ";
     }
@@ -489,7 +487,7 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
 
     public function getDebugInfo()
     {
-        return array (  476 => 201,  472 => 200,  468 => 199,  464 => 198,  454 => 335,  450 => 334,  446 => 333,  442 => 332,  438 => 331,  434 => 330,  430 => 329,  426 => 328,  422 => 327,  418 => 326,  412 => 323,  408 => 322,  402 => 319,  398 => 318,  281 => 203,  278 => 200,  275 => 198,  273 => 197,  258 => 185,  254 => 184,  124 => 57,  102 => 38,  98 => 37,  79 => 21,  75 => 20,  71 => 19,  65 => 16,  61 => 15,  57 => 14,  53 => 13,  39 => 1,);
+        return array (  474 => 199,  470 => 198,  466 => 197,  462 => 196,  452 => 333,  448 => 332,  444 => 331,  440 => 330,  436 => 329,  432 => 328,  428 => 327,  424 => 326,  420 => 325,  416 => 324,  410 => 321,  406 => 320,  400 => 317,  396 => 316,  279 => 201,  276 => 198,  273 => 196,  271 => 195,  256 => 183,  252 => 182,  124 => 57,  102 => 38,  98 => 37,  79 => 21,  75 => 20,  71 => 19,  65 => 16,  61 => 15,  57 => 14,  53 => 13,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -532,7 +530,7 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
                         <ul>
                             <li class=\"log-in\"><a href=\"{{ path_for('login') }}\" title=\"Login\"><i class=\"flaticon-unlocked\"></i> login</a></li>
                             <li class=\"Register\"><a href=\"{{ path_for('register') }}\" title=\"Register\"><i class=\"flaticon-checked\"></i> register</a></li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -551,9 +549,7 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
                         <nav>
                             <ul class=\"main-menu\">
                                 <li><a href=\"{{ path_for('home') }}\" title=\"\">Home</a>
-                                    <ul>
-                                        <li><a href=\"index-after-login.html\" title=\"\">page after login</a></li>
-                                    </ul>
+                                    
                                 </li>
                                 <li><a href=\"#\" title=\"\">cars</a>
                                     <ul>
