@@ -1,310 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from demo.graygrids.com/themes/classix/classic/index-v-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Oct 2019 13:58:47 GMT -->
+<!-- Mirrored from wpkixx.com/html/car-carry/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 22:40:06 GMT -->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="author" content="GrayGrids Team">
-    {% block tittle %}<title>FastLawyers | home</title>{% endblock %}
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Car Carry</title>
+    <link rel="icon" type="image/png" href="images/fav.png">
 
-    {% block style %}
-    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="text/css" >
+    <link rel="stylesheet" href="{{asset('css/apps.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/color.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
 
-    <link rel="stylesheet"  href="{{ asset('css/bootstrap.min.css') }}" type="text/css" >
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="{{asset('css/revolution/settings.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/revolution/navigation.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/revolution/pe-icon-7-stroke/css/pe-icon-7-stroke.css')}}">
 
-    <link rel="stylesheet"  href="{{ asset('fonts/all.min.css" type="text/css') }}" type="text/css" >
-
-    <link rel="stylesheet" href="{{ asset('fonts/line-icons/line-icons.css') }}" type="text/css">
-
-    <link rel="stylesheet" href="{{ asset('extras/animate.css') }}"  type="text/css">
-
-    <link rel="stylesheet" href="{{ asset('extras/owl.carousel.css') }}"  type="text/css">
-    <link rel="stylesheet" href="{{ asset('extras/owl.theme.css') }}"  type="text/css">
-
-    <link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}" type="text/css">
-
-    <link rel="stylesheet"  href="{{ asset('css/main.css') }}"  type="text/css">
-
-    <link rel="stylesheet"  href="{{ asset('css/responsive.css') }}"   type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-          crossorigin="anonymous">
-    {% endblock %}
 </head>
 <body>
+<div class="site-layout">
 
-{%  include 'includes/header.twig' %}
-{% block search %}
-
-{%  endblock %}
-{%  block wrapper %}
-
-{%  endblock %}
-
-
-{%  block featuredList %}
-
-{%  endblock %}
-
-{%  block content %}
-
-{% endblock %}
-<section id="counter">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counting wow fadeInDownQuick" data-wow-delay=".5s">
-                    <div class="icon">
-<span>
-<i class="lnr lnr-tag"></i>
-</span>
-                    </div>
-                    {#<div class="desc">
-                        <h3 class="counter">12090</h3>
-                        <p>Regular Ads</p>
-                    </div>#}
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counting wow fadeInDownQuick" data-wow-delay="1s">
-                    <div class="icon">
-<span>
-<i class="lnr lnr-map"></i>
-</span>
-                    </div>
-                    <div class="desc">
-                        <h3 class="counter">350</h3>
-                        <p>Locations</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counting wow fadeInDownQuick" data-wow-delay="1.5s">
-                    <div class="icon">
-<span>
-<i class="lnr lnr-users"></i>
-</span>
-                    </div>
-                    <div class="desc">
-                        <h3 class="counter">23453</h3>
-                        <p>Reguler Members</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counting wow fadeInDownQuick" data-wow-delay="2s">
-                    <div class="icon">
-<span>
-<i class="lnr lnr-license"></i>
-</span>
-                    </div>
-                   {# <div class="desc">
-                        <h3 class="counter">150</h3>
-                        <p>Premium Ads</p>
-                    </div>#}
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-{#<section id="pricing-table" class="section">
-    <div class="container">
-        <h2 class="section-title">Find a pricing plan that’s fit your needs</h2>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-xs-12 wow fadeInDownQuick" data-wow-delay="0s">
-                <div class="table wow">
-                    <div class="title">
-                        <h3>Free</h3>
-                    </div>
-                    <div class="pricing-header">
-                        <p class="price-value"> <sup>$</sup>0</p>
-                        <p class="price-quality">per month</p>
-                    </div>
-                    <ul class="description">
-                        <li><i class="fas fa-check-square"></i>Free ad posting</li>
-                        <li><i class="fas fa-times-circle-o"></i>Featured ads availability</li>
-                        <li><i class="fas fa-times-circle-o"></i>Multi-user</li>
-                        <li><i class="fas fa-check-square"></i>100% Secure!</li>
-                    </ul>
-                    <button class="btn btn-common" type="submit">Create Account</button>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12 wow fadeInDownQuick" data-wow-delay="0.5s">
-                <div class="table" id="active-tb">
-                    <div class="title">
-                        <h3>Standard</h3>
-                    </div>
-                    <div class="pricing-header">
-                        <p class="price-value"> <sup>$</sup>12</p>
-                        <p class="price-quality">per month</p>
-                    </div>
-                    <ul class="description">
-                        <li><i class="fas fa-check-square"></i>Free ad posting</li>
-                        <li><i class="fas fa-check-square"></i>6&nbsp;Featured ads availability</li>
-                        <li><i class="fas fa-check-square"></i>3 Users</li>
-                        <li><i class="fas fa-check-square"></i>100% Secure!</li>
-                    </ul>
-                    <button class="btn btn-common" type="submit">Purchase Now</button>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12 wow fadeInDownQuick" data-wow-delay="0.8s">
-                <div class="table">
-                    <div class="title">
-                        <h3>Platinum</h3>
-                    </div>
-                    <div class="pricing-header">
-                        <p class="price-value"> <sup>$</sup>29</p>
-                        <p class="price-quality">per month</p>
-                    </div>
-                    <ul class="description">
-                        <li><i class="fas fa-check-square"></i>Free ad posting</li>
-                        <li><i class="fas fa-check-square"></i>20&nbsp;Featured ads availability</li>
-                        <li><i class="fas fa-check-square"></i>Unlimited users</li>
-                        <li><i class="fas fa-check-square"></i>100% Secure!</li>
-                    </ul>
-                    <button class="btn btn-common" type="submit">Purchase Now</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>#}
-
-
-<section class="app">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12 col-xs-12">
-                <div class="app-inner wow fadeInLeft" data-wow-delay="0.5s">
-                    <h2>Get Free Mobile App from AppStore and GooglePlay</h2>
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta vel, commodi laudantium officiis ipsum est aliquid dolore omnis, facilis molestiae dicta ipsam aperiam corporis minima mollitia iusto voluptatibus asperiores nemo.</p>
-                    </div>
-                    <button class="btn btn-common btn-lg"><i class="fab fa-apple"></i> App Store</button>
-                    <button class="btn btn-danger btn-lg"><i class="fas fa-play"></i> Google Play</button>
-                </div>
-            </div>
-            <div class="col-lg-6">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<footer>
-
-    <section class="footer-Content">
+    <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
-                    <div class="widget">
-                        <h3 class="block-title">About us</h3>
-                        <div class="textwidget">
-                            <p>Fast lawyer is an innovative solution that connects clients to lawyer</p>
+                <div class="col-lg-12">
+                    <ul class="top-links">
+                        <li><i class="flaticon-support"></i><a href="support.html" title="">support center</a></li>
+                        <li><i class="flaticon-info"></i><a href="faq.html" title="">Faq's</a></li>
+                    </ul>
+                    <div class="login-area">
+                        <ul>
+                            <li class="log-in"><a href="{{ path_for('login') }}" title="Login"><i class="flaticon-unlocked"></i> login</a></li>
+                            <li class="Register"><a href="{{ path_for('register') }}" title="Register"><i class="flaticon-checked"></i> register</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- topbar -->
+
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <header>
+                        <div class="logo">
+                            <a href="index-2.html" title="index.html"><img src="images/logo-black.png" alt=""></a>
+                        </div>
+                        <nav>
+                            <ul class="main-menu">
+                                <li><a href="{{ path_for('home') }}" title="">Home</a>
+                                    <ul>
+                                        <li><a href="index-after-login.html" title="">page after login</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">cars</a>
+                                    <ul>
+                                        <li><a href="cars.html" title="">cars</a></li>
+                                        <li><a href="car-profile.html" title="">car profile</a></li>
+                                        <li><a href="car-detail.html" title="">cars detail</a></li>
+                                        <li><a href="create-route-notification.html" title="">route notification</a></li>
+                                        <li><a href="submit-car-intro.html" title="">Submit car introduction</a></li>
+                                        <li><a href="submit-car-for-rent.html" title="">submit car for rent</a></li>
+                                        <li><a href="submit-route.html" title="">submit car route</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">rides</a>
+                                    <ul>
+                                        <li><a href="ride-listing.html" title="">ride listing</a></li>
+                                        <li><a href="ride-request.html" title="">ride request</a></li>
+                                        <li><a href="ride-detail.html" title="">ride detail</a></li>
+                                        <li><a href="ride-requests-list.html" title="">ride request list</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">leasing</a>
+                                    <ul>
+                                        <li><a href="leasing.html" title="">Leasing Page</a></li>
+                                        <li><a href="leasing-car-step1.html" title="">leasing Step 1</a></li>
+                                        <li><a href="leasing-car-step2.html" title="">leasing step 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="">profiles</a>
+                                    <ul>
+                                        <li><a href="user-profile.html" title="">Profile user</a></li>
+                                        <li><a href="user-profile-v2.html" title="">Profile user v2</a></li>
+                                        <li><a href="my-profile.html" title="">My profile</a></li>
+                                        <li><a href="profile-balance.html" title="">profile balance</a></li>
+                                        <li><a href="profile-earning.html" title="">profile earning</a></li>
+                                        <li><a href="profile-edit.html" title="">profile edit page</a></li>
+                                        <li><a href="profile-invite-friend.html" title="">profile invite friend</a></li>
+                                        <li><a href="profile-points.html" title="">profile points</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title=""><i class="fa fa-ellipsis-v"></i></a>
+                                    <ul>
+                                        <li><a href="login.html" title="">Login page</a></li>
+                                        <li><a href="register.html" title="">Register Page</a></li>
+                                        <li><a href="how-this-work.html" title="">how it's work</a></li>
+                                        <li><a href="faq.html" title="">faq's</a></li>
+                                        <li><a href="points.html" title="">poinst</a></li>
+                                        <li><a href="coming-soon.html" title="">Coming Soon</a></li>
+                                        <li><a href="404.html" title="">404 Page</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="time-info">
+                            <i class="flaticon-phone-call-1"></i>
+                            <span>Whatsapp now <em>+1-124-3456-2</em></span>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div><!-- topbar header -->
+
+    <div class="responsive-header">
+        <div class="res-top">
+            <ul>
+                <li><a href="#" title="Home"><i class="flaticon-home"></i></a></li>
+                <li><a href="#" title="Faq's"><i class="flaticon-info"></i></a></li>
+                <li><a href="#" title="Support center"><i class="flaticon-support"></i></a></li>
+                <li><a href="#" title="Login"><i class="flaticon-unlocked"></i></a></li>
+                <li><a href="#" title="New register"><i class="flaticon-checked"></i></a></li>
+                <li class="post-new"><a href="#" title="New post">+Post</a></li>
+            </ul>
+        </div>
+        <div class="logomenu-bar">
+            <div class="logo"><a href="index-2.html" title=""><img src="images/logo-black.png" alt=""></a></div>
+            <span class="responsviemenu-btn"><i class="flaticon-menu-1"></i></span>
+        </div>
+        <div class="responsive-menu">
+            <span class="close-btn"><i class="flaticon-error-1"></i></span>
+            <ul>
+                <li><a href="index-2.html" title="">Home</a></li>
+                <li class="menu-item-has-children"><a href="#" title="">cars</a>
+                    <ul class="sub-menu">
+                        <li><a href="index-after-login.html" title="">page after login</a></li>
+                        <li><a href="cars.html" title="">cars</a></li>
+                        <li><a href="car-profile.html" title="">car profile</a></li>
+                        <li><a href="car-detail.html" title="">cars detail</a></li>
+                        <li><a href="create-route-notification.html" title="">route notification</a></li>
+                        <li><a href="submit-car-intro.html" title="">Submit car introduction</a></li>
+                        <li><a href="submit-car-for-rent.html" title="">submit car for rent</a></li>
+                        <li><a href="submit-route.html" title="">submit car route</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#" title="">rides</a>
+                    <ul class="sub-menu">
+                        <li><a href="ride-listing.html" title="">ride listing</a></li>
+                        <li><a href="ride-request.html" title="">ride request</a></li>
+                        <li><a href="ride-detail.html" title="">ride detail</a></li>
+                        <li><a href="ride-requests-list.html" title="">ride request list</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#" title="">leasing</a>
+                    <ul class="sub-menu">
+                        <li><a href="leasing.html" title="">Leasing Page</a></li>
+                        <li><a href="leasing-car-step1.html" title="">leasing Step 1</a></li>
+                        <li><a href="leasing-car-step2.html" title="">leasing step 2</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#" title="">profiles</a>
+                    <ul class="sub-menu">
+                        <li><a href="user-profile.html" title="">Profile user</a></li>
+                        <li><a href="user-profile-v2.html" title="">Profile user v2</a></li>
+                        <li><a href="my-profile.html" title="">My profile</a></li>
+                        <li><a href="profile-balance.html" title="">profile balance</a></li>
+                        <li><a href="profile-earning.html" title="">profile earning</a></li>
+                        <li><a href="profile-edit.html" title="">profile edit page</a></li>
+                        <li><a href="profile-invite-friend.html" title="">profile invite friend</a></li>
+                        <li><a href="profile-points.html" title="">profile points</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#" title="">more pages</a>
+                    <ul class="sub-menu">
+                        <li><a href="{{ path_for('login') }}" title="">Login page</a></li>
+                        <li><a href="{{ path_for('register') }}" title="">Register Page</a></li>
+                        <li><a href="how-this-work.html" title="">how it's work</a></li>
+                        <li><a href="faq.html" title="">faq's</a></li>
+                        <li><a href="points.html" title="">poinst</a></li>
+                        <li><a href="coming-soon.html" title="">Coming Soon</a></li>
+                        <li><a href="404.html" title="">404 Page</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div><!-- Responsive Header -->
+
+    {%  include 'includes/flash.twig' %}
+    {%  block caurosel %}
+    {%  endblock %}
+    {%  block content %}
+
+    {%  endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section>
+        <div class="space no-space dark-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="servize">
+                            <i class="flaticon-placeholder"></i>
+                            <div class="serviz-meta">
+                                <span>Tucson, AZ 80210: 501 Lane</span>
+                                <i>Canada</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="servize">
+                            <i class="flaticon-24-hours-1"></i>
+                            <div class="serviz-meta">
+                                <span>Tool free number 24/7</span>
+                                <i>+1-111-222-333</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="servize">
+                            <i class="flaticon-24-hours"></i>
+                            <div class="serviz-meta">
+                                <span>Full time services</span>
+                                <i>24/7</i>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
-                    {#<div class="widget">#}
-                        {#<h3 class="block-title">Useful Links</h3>#}
-                        {#<ul class="menu">#}
-                            {#<li><a href="#">Home</a></li>#}
-                            {#<li><a href="#">Categories</a></li>#}
-                            {#<li><a href="#">FAQ</a></li>#}
-                            {#<li><a href="#">Left Sidebar</a></li>#}
-                            {#<li><a href="#">Pricing Plans</a></li>#}
-                            {#<li><a href="#">About</a></li>#}
-                            {#<li><a href="#">Contact</a></li>#}
-                            {#<li><a href="#">Full Width Page</a></li>#}
-                            {#<li><a href="#">Terms of Use</a></li>#}
-                            {#<li><a href="#">Privacy Policy</a></li>#}
-                        {#</ul>#}
-                    {#</div>#}
-                </div>
-                {#<div class="col-lg-3 col-md-6 col-xs-12 wow fadeIn" data-wow-delay="0.6s">#}
-                    {#<div class="widget">#}
-                        {#<h3 class="block-title">Latest Tweets</h3>#}
-                        {#<div class="twitter-content clearfix">#}
-                            {#<ul class="twitter-list">#}
-                                {#<li class="clearfix">#}
-{#<span>#}
-{#Platform to Download and Submit #Bootstrap Templates via @ProductHunt @GrayGrids#}
-{#<a href="#">http://t.co/cLo2w7rWOx</a>#}
-{#</span>#}
-                                {#</li>#}
-                                {#<li class="clearfix">#}
-{#<span>#}
-{#Introducing Bootstrap 4 Features: What’s new, What’s gone!#}
-{#<a href="#">http://t.co/cLo2w7rWOx</a>#}
-{#</span>#}
-                                {#</li>#}
-                            {#</ul>#}
-                        {#</div>#}
-                    {#</div>#}
-                {#</div>#}
-
             </div>
         </div>
-    </section>
+    </section><!-- footer top -->
 
-
-    <div id="copyright">
+    <footer class="light">
+        <div class="mockup-right">
+            <img src="images/resources/footer-mockup.png" alt="">
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="site-info float-left">
-                        <p>Designed and Developed by <a href="http://uideck.com/" rel="nofollow">Marvelous</a></p>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="widget">
+                        <a href="index-2.html" title=""><img src="images/logo-black.png" alt=""></a>
+                        <p>
+                            The trio took this simple idea and built it into the world’s leading carpooling platform, connecting millions of people going the same way.
+                        </p>
+                        <ul class="social">
+                            <li><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
                     </div>
-                    <div class="bottom-social-icons social-icon float-right">
-                        <a class="facebook" target="_blank" href="https://web.facebook.com/GrayGrids"><i class="fab fa-facebook-f"></i></a>
-                        <a class="twitter" target="_blank" href="https://twitter.com/GrayGrids"><i class="fab fa-twitter"></i></a>
-                        <a class="dribble" target="_blank" href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
-                        <a class="flickr" target="_blank" href="https://www.flickr.com/"><i class="fab fa-flickr"></i></a>
-                        <a class="youtube" target="_blank" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
-                        <a class="google-plus" target="_blank" href="https://plus.google.com/"><i class="fab fa-google-plus"></i></a>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="widget">
+                        <div class="widget-title"><h4>useful links</h4></div>
+                        <ul class="list-style">
+                            <li><a href="#" title="">leasing</a></li>
+                            <li><a href="#" title="">submit route</a></li>
+                            <li><a href="#" title="">how does it work?</a></li>
+                            <li><a href="#" title="">agent listings</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="widget">
+                        <div class="widget-title"><h4>weekly news letter</h4></div>
+                        <div class="news-letter">
+                            <p>We may send you information about related events, webinars, products and services which we believe.</p>
+                            <form method="post">
+                                <input type="text" placeholder="Enter your email address">
+                                <button type="submit"><i class="fa fa-paper-plane-o"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="widget">
+                        <div class="widget-title"><h4>download apps</h4></div>
+                        <ul class="colla-apps">
+                            <li><a href="#" title=""><i class="flaticon-android"></i> android</a></li>
+                            <li><a href="#" title=""><i class="flaticon-apple"></i> iPhone</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="bottombar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="copyright">© 2019. All rights reserved.</span>
+                        <i><img src="images/credit-cards.png" alt=""></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- footer -->
 
-</footer>
-
-
-<a href="#" class="back-to-top">
-    <i class="fas fa-angle-up"></i>
-</a>
-
-<div id="loader">
-    <div class="sk-folding-cube">
-        <div class="sk-cube1 sk-cube"></div>
-        <div class="sk-cube2 sk-cube"></div>
-        <div class="sk-cube4 sk-cube"></div>
-        <div class="sk-cube3 sk-cube"></div>
-    </div>
 </div>
- {%  block script %}
-<script type="text/javascript" src="{{ asset('js/jquery-min.js') }}" ></script>
-<script type="text/javascript"  src="{{ asset('js/popper.min.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('js/jquery.parallax.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"  ></script>
-<script type="text/javascript" src="{{ asset('js/color-switcher.js') }}"  ></script>
-<script type="text/javascript" src="{{ asset('js/jquery.slicknav.js') }}"  ></script>
-<script type="text/javascript" src="{{ asset('js/wow.js') }}" ></script>
-<script type="text/javascript" src="{{ asset('js/jquery.counterup.min.js') }}"  ></script>
-<script type="text/javascript"  src="{{ asset('js/waypoints.min.js') }}" ></script>
-<script type="text/javascript"  src="{{ asset('js/form-validator.min.js') }}" ></script>
-<script type="text/javascript"  src="{{ asset('js/contact-form-script.js') }}" ></script>
-<script type="text/javascript"  src="{{ asset('js/main.js') }}" ></script>
-{% endblock %}
+<script src="{{asset('js/apps.min.js')}}"></script>
+<script src="{{asset('js/script.js')}}"></script>
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="{{asset('js/revolution/jquery.themepunch.tools.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution/jquery.themepunch.revolution.min.js')}}"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  -->
+<script src="{{asset('js/revolution/revolution.extension.actions.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.carousel.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.kenburn.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.layeranimation.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.migration.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.navigation.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.parallax.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.slideanims.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.extension.video.min.js')}}"></script>
+<script src="{{asset('js/revolution/revolution.initialize.js')}}"></script>
+
 </body>
 
-<!-- Mirrored from demo.graygrids.com/themes/classix/classic/index-v-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Oct 2019 13:58:47 GMT -->
-</html>
+<!-- Mirrored from wpkixx.com/html/car-carry/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 22:40:07 GMT -->
+</html>		

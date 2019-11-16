@@ -1,0 +1,63 @@
+{% extends 'layouts/base.twig' %}
+
+
+{% block caurosel %}
+
+    <div class="sub-head blackish ext-low-opacity">
+        <div class="bg-image" style="background-image: url(images/resources/subhead-bg.jpg)"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cola-head">
+                        <div class="head-meta">
+                            <h4>Register</h4>
+                            <p>( Create an account today. )</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- subhead -->
+{% endblock %}
+{% block content %}
+
+
+    <section>
+        <div class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="login-sec">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="bg-image" style="background-image: url('/gasnappe/public/assets/images/resources/5.png'); background-repeat:no-repeat; height: 400px;"></div>
+                                </div>
+                                <div class="offset-lg-1 col-lg-4     col-md-4">
+                                    <div class="cola-form">
+                                        <h4><i class="flaticon-sign-in"></i>Refill gas</h4>
+                                        <h6>Please select the correct size of the cylinder below</h6>s
+                                        <form method="post">
+                                            <label>Cylinder size</label>
+                                            <select>
+                                                <option>5kg</option>
+                                                <option>10kg</option>
+                                                <option>15kg</option>
+                                            </select>
+
+                                            <label for="checkbox">I accept Collabors’s <a href="#" title="">Terms & Conditions</a></label>
+                                            <button type="submit" class="theme-btn">Add to cart</button>
+                                        </form>
+                                        <span>Are you a member already? <a href="#" title="">Login here</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- form section -->
+
+{%  endblock %}
+
