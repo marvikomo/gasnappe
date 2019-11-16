@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07849f83-ac9d-4502-bbd4-c51e1b7d4918" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cache/twig/f7/f74a05328c8fa5981e37b4b407c0dcd3a387175b2084d9517af99019171ccf7d.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/f7/f74a05328c8fa5981e37b4b407c0dcd3a387175b2084d9517af99019171ccf7d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/base.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/base.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+            <state relative-caret-position="150">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -329,12 +327,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573859034277</updated>
-      <workItem from="1573859036437" duration="14857000" />
+      <workItem from="1573859036437" duration="14929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14857000" />
+    <option name="totallyTimeSpent" value="14929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -496,8 +494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/base.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        <state relative-caret-position="150">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -4646,3 +4646,15 @@
 [2019-11-16T20:27:30.193021+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/footer-mockup.png [] {"uid":"7caeb02"}
 [2019-11-16T20:27:30.349210+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/credit-cards.png [] {"uid":"b021e15"}
 [2019-11-16T20:27:30.580211+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/ [] {"uid":"528cb2e"}
+[2019-11-16T20:28:37.769766+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/ [] {"uid":"1725e12"}
+[2019-11-16T20:28:38.022864+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/slider/3rdslide-png.png [] {"uid":"1f1ef0d"}
+[2019-11-16T20:28:38.209737+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/logo-black.png [] {"uid":"7fa587e"}
+[2019-11-16T20:28:38.324457+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/latest-ser-3.jpg [] {"uid":"0552dad"}
+[2019-11-16T20:28:38.483271+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/sponsor-2.png [] {"uid":"01e9346"}
+[2019-11-16T20:28:38.608462+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/sponsor-1.png [] {"uid":"2815ce5"}
+[2019-11-16T20:28:38.752710+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/latest-ser-1.jpg [] {"uid":"c484835"}
+[2019-11-16T20:28:39.008605+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/sponsor-3.png [] {"uid":"b21bc04"}
+[2019-11-16T20:28:39.108998+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/sponsor-4.png [] {"uid":"ebb9628"}
+[2019-11-16T20:28:39.214499+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/resources/footer-mockup.png [] {"uid":"98dd77e"}
+[2019-11-16T20:28:39.348333+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/images/credit-cards.png [] {"uid":"1a0279f"}
+[2019-11-16T20:28:39.615274+01:00] app.INFO: [::1]: http://localhost/gasnappe/public/ [] {"uid":"c1595f0"}

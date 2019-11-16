@@ -123,19 +123,9 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
         // line 57
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("home"), "html", null, true);
         echo "\" title=\"\">Home</a>
-                                    
+
                                 </li>
-                                <li><a href=\"#\" title=\"\">cars</a>
-                                    <ul>
-                                        <li><a href=\"cars.html\" title=\"\">cars</a></li>
-                                        <li><a href=\"car-profile.html\" title=\"\">car profile</a></li>
-                                        <li><a href=\"car-detail.html\" title=\"\">cars detail</a></li>
-                                        <li><a href=\"create-route-notification.html\" title=\"\">route notification</a></li>
-                                        <li><a href=\"submit-car-intro.html\" title=\"\">Submit car introduction</a></li>
-                                        <li><a href=\"submit-car-for-rent.html\" title=\"\">submit car for rent</a></li>
-                                        <li><a href=\"submit-route.html\" title=\"\">submit car route</a></li>
-                                    </ul>
-                                </li>
+                               
                                 <li><a href=\"#\" title=\"\">rides</a>
                                     <ul>
                                         <li><a href=\"ride-listing.html\" title=\"\">ride listing</a></li>
@@ -248,11 +238,11 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
                 <li class=\"menu-item-has-children\"><a href=\"#\" title=\"\">more pages</a>
                     <ul class=\"sub-menu\">
                         <li><a href=\"";
-        // line 182
+        // line 172
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("login"), "html", null, true);
         echo "\" title=\"\">Login page</a></li>
                         <li><a href=\"";
-        // line 183
+        // line 173
         echo twig_escape_filter($this->env, $this->extensions['Slim\Views\TwigExtension']->pathFor("register"), "html", null, true);
         echo "\" title=\"\">Register Page</a></li>
                         <li><a href=\"how-this-work.html\" title=\"\">how it's work</a></li>
@@ -267,15 +257,15 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
     </div><!-- Responsive Header -->
 
     ";
-        // line 195
-        $this->loadTemplate("includes/flash.twig", "layouts/base.twig", 195)->display($context);
-        // line 196
+        // line 185
+        $this->loadTemplate("includes/flash.twig", "layouts/base.twig", 185)->display($context);
+        // line 186
         echo "    ";
         $this->displayBlock('caurosel', $context, $blocks);
-        // line 198
+        // line 188
         echo "    ";
         $this->displayBlock('content', $context, $blocks);
-        // line 201
+        // line 191
         echo "
 
 
@@ -392,63 +382,63 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
 
 </div>
 <script src=\"";
-        // line 316
+        // line 306
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/apps.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 317
+        // line 307
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/script.js"]), "html", null, true);
         echo "\"></script>
 
 <!-- REVOLUTION JS FILES -->
 <script type=\"text/javascript\" src=\"";
-        // line 320
+        // line 310
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/jquery.themepunch.tools.min.js"]), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 321
+        // line 311
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/jquery.themepunch.revolution.min.js"]), "html", null, true);
         echo "\"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  -->
 <script src=\"";
-        // line 324
+        // line 314
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.actions.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 325
+        // line 315
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.carousel.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 326
+        // line 316
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.kenburn.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 327
+        // line 317
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.layeranimation.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 328
+        // line 318
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.migration.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 329
+        // line 319
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.navigation.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 330
+        // line 320
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.parallax.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 331
+        // line 321
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.slideanims.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 332
+        // line 322
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.extension.video.min.js"]), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 333
+        // line 323
         echo twig_escape_filter($this->env, call_user_func_array($this->env->getFunction('asset')->getCallable(), ["js/revolution/revolution.initialize.js"]), "html", null, true);
         echo "\"></script>
 
@@ -458,19 +448,19 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
 </html>\t\t";
     }
 
-    // line 196
+    // line 186
     public function block_caurosel($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 197
+        // line 187
         echo "    ";
     }
 
-    // line 198
+    // line 188
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 199
+        // line 189
         echo "
     ";
     }
@@ -487,7 +477,7 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
 
     public function getDebugInfo()
     {
-        return array (  474 => 199,  470 => 198,  466 => 197,  462 => 196,  452 => 333,  448 => 332,  444 => 331,  440 => 330,  436 => 329,  432 => 328,  428 => 327,  424 => 326,  420 => 325,  416 => 324,  410 => 321,  406 => 320,  400 => 317,  396 => 316,  279 => 201,  276 => 198,  273 => 196,  271 => 195,  256 => 183,  252 => 182,  124 => 57,  102 => 38,  98 => 37,  79 => 21,  75 => 20,  71 => 19,  65 => 16,  61 => 15,  57 => 14,  53 => 13,  39 => 1,);
+        return array (  464 => 189,  460 => 188,  456 => 187,  452 => 186,  442 => 323,  438 => 322,  434 => 321,  430 => 320,  426 => 319,  422 => 318,  418 => 317,  414 => 316,  410 => 315,  406 => 314,  400 => 311,  396 => 310,  390 => 307,  386 => 306,  269 => 191,  266 => 188,  263 => 186,  261 => 185,  246 => 173,  242 => 172,  124 => 57,  102 => 38,  98 => 37,  79 => 21,  75 => 20,  71 => 19,  65 => 16,  61 => 15,  57 => 14,  53 => 13,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -549,19 +539,9 @@ class __TwigTemplate_809c994349766adbc3623cf9bd9510ef185f85c950e216e80cd2074ec5f
                         <nav>
                             <ul class=\"main-menu\">
                                 <li><a href=\"{{ path_for('home') }}\" title=\"\">Home</a>
-                                    
+
                                 </li>
-                                <li><a href=\"#\" title=\"\">cars</a>
-                                    <ul>
-                                        <li><a href=\"cars.html\" title=\"\">cars</a></li>
-                                        <li><a href=\"car-profile.html\" title=\"\">car profile</a></li>
-                                        <li><a href=\"car-detail.html\" title=\"\">cars detail</a></li>
-                                        <li><a href=\"create-route-notification.html\" title=\"\">route notification</a></li>
-                                        <li><a href=\"submit-car-intro.html\" title=\"\">Submit car introduction</a></li>
-                                        <li><a href=\"submit-car-for-rent.html\" title=\"\">submit car for rent</a></li>
-                                        <li><a href=\"submit-route.html\" title=\"\">submit car route</a></li>
-                                    </ul>
-                                </li>
+                               
                                 <li><a href=\"#\" title=\"\">rides</a>
                                     <ul>
                                         <li><a href=\"ride-listing.html\" title=\"\">ride listing</a></li>
